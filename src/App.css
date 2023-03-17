@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+}
+
+.auth-form-div, .driver-form{
+  display:flex;
+  flex-direction: column;
+}
+
+.container {
+  height: 100vh;
+}
+
+label {
+  align-items: center;
+  text-align: left;
+  padding: 0.25rem 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+input {
+  margin: 0.25rem 0;
+  padding: 0.75rem;
+  border:none;
+  border-radius: 10px;
+  width: 500px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+button {
+  border: none;
+  background-color: white;
+  padding:20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.driver-button {
+  width: 200px;
+  margin-left: 150px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.footer-text-contents {
+  background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+  margin-top: -20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
